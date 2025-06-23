@@ -25,7 +25,7 @@ You know the drill. Make a venv, activate it, install requirements, and run `mai
 
 If you're new to Python and git
 1. `git clone https://github.com/official-elinas/comfyui-image-manager.git`
-2. `cd comfyui-image-manager`/ enter thhe directory
+2. `cd comfyui-image-manager`/ enter the directory
 3. `python -m venv venv`
 4. `source venv/bin/activate` (Linux/MacOS) OR `venv\Scripts\activate` (Windows)
 5. `pip install -r requirements.txt`
