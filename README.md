@@ -6,7 +6,7 @@ A small application (inspired by [Hydrus](https://github.com/hydrusnetwork/hydru
 * Load a directory with ComfyUI images
 * Search for tags/metadata dynamically - both prompt and negative prompt.
 * Open full size images in your system's image viewer (until I can solve the problem with non 1:1 images and centering)
-* Open file locations by right clicking in the gallery... and more to come.
+* Open file locations by right clicking in the gallery... and more to come (suggestions/PRs welcome!)
 
 Retrieves the following metadata:
 * Prompt
@@ -23,7 +23,17 @@ Retrieves the following metadata:
 ## Installation
 You know the drill. Make a venv, activate it, install requirements, and run `main.py`
 
+If you're new to Python and git
+1. `git clone https://github.com/official-elinas/comfyui-image-manager.git`
+2. `cd comfyui-image-manager`/ enter thhe directory
+3. `python -m venv venv`
+4. `source venv/bin/activate` (Linux/MacOS) OR `venv\Scripts\activate` (Windows)
+5. `pip install -r requirements.txt`
+6. `python main.py`
+
 ## Extra Info
+I won't be releasing executables for now.
+
 Note: `inspect_metadata.py` is a test script to pull the JSON metadata which was required to parse everything out correctly.
 
 Credit: `image_parser.py` was adapted from the Discord bot [PI-Chan](https://github.com/yoinked-h/PI-Chan) but had modified to work with any workflow as my workflow was not being parsed correctly, neither with the bot. It also probably needs some optimization as well with the nested for loops, but I'll look into that later.
