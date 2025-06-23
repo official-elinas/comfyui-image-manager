@@ -22,7 +22,7 @@ Retrieves the following metadata:
 * Original Resolution
 
 ## Installation
-You know the drill. Make a venv, activate it, and run `main.py`
+You know the drill. Make a venv, activate it, install requirements, and run `main.py`
 
 ## Extra Info
 Note: `inspect_metadata.py` is a test script to pull the JSON metadata which was required to parse everything out correctly.
