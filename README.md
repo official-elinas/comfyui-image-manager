@@ -18,8 +18,8 @@ Retrieves the following metadata:
 * Sampler
 * Scheduler
 * Denoise
-* Upscaled Resolution
-* Original Resolution
+* Resolution (upscaled resolution or size if not upscaled)
+* Size (returns None right now if the image is not upscaled. I'll fix it later)
 
 ![demo](image.png)
 
@@ -39,4 +39,4 @@ I won't be releasing executables for now.
 
 Note: `inspect_metadata.py` is a test script to pull the JSON metadata which was required to parse everything out correctly.
 
-Credit: `image_parser.py` was adapted from the Discord bot [PI-Chan](https://github.com/yoinked-h/PI-Chan) but had modified to work with any workflow as my workflow was not being parsed correctly, neither with the bot. It also probably needs some optimization as well with the nested for loops, but I'll look into that later.
+Credit: `image_parser.py` was adapted from the Discord bot [PI-Chan](https://github.com/yoinked-h/PI-Chan) but has been modified to work with any workflow as mine was not being parsed correctly, neither with the Discord bot. It also probably needs some optimization as well with the nested for loops, but I'll look into that later.
