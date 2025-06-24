@@ -20,6 +20,8 @@ Retrieves the following metadata:
 * Upscaled Resolution
 * Original Resolution
 
+![demo](image.png)
+
 ## Installation
 You know the drill. Make a venv, activate it, install requirements, and run `main.py`
 
