@@ -12,6 +12,7 @@ Retrieves the following metadata:
 * Prompt
 * Negative Prompt
 * Model
+* LoRA (if applicable)
 * Seed
 * Steps
 * Sampler
