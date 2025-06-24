@@ -15,6 +15,7 @@ Retrieves the following metadata:
 * LoRA (if applicable)
 * Seed
 * Steps
+* CFG Scale
 * Sampler
 * Scheduler
 * Denoise
